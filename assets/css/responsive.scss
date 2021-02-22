@@ -1,0 +1,292 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .nav-header {
+        width: 35%;
+    }
+    .mk-product-item .mk-product-content .mk-product-title {
+        padding: 0 40px;
+        font-size: 14px;
+    }
+    .nav-search ul {
+        margin-top: 12px;
+    }
+    .cart-product-area .table-responsive{
+        display: table ;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .nav-header {
+        width: 20%;
+    }
+    .nav-search ul {
+        margin-top: 10px;
+    }
+    .product-box-area .single-box-2 .box-info h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .product-box-area .box-info h2 {
+        font-size: 40px;
+    }
+    .product-box-area .box-info a.btn {
+        margin-bottom: 24px;
+    }
+    .product-box-area .single-box-2 .box-info a.btn {
+        margin-bottom: -6px;
+    }
+    .mk-product-item .mk-product-content .mk-product-title {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+    .countdown .countdown-wrapper .offer-text h4 {
+        font-size: 25px;
+    }
+    .testimonial-area .testimonial-wrapper .owl-dots {
+        bottom: -30px;
+    }
+    .fotter-area .single-fotter-2 .fotter-link ul li a {
+        font-size: 13px;
+    }
+    .arrival-area .card .content a {
+        padding: 0 25px;
+    }
+    .shop-area #home .mk-product-title {
+        padding: 0 25px;
+    }
+    .shop-area #pricing .mk-product-title {
+        padding: 0 80px !important;
+    }
+    .shop-area #about .mk-product-title {
+        padding: 0 25px;
+    }
+    .product-details .container .product-information .alignment-area #customers .size-info .product-size-area .product-size-option {
+        margin-right: 16px;
+    }
+    .product-details .container .product-information .alignment-area #customers .color-info .product-color-area .product-color-option {
+        margin-right: 5px;
+    }
+    .cart-product-area #customers td, .cart-product-area #customers th {
+        padding: 30px;
+    }
+    .cart-product-area .table-responsive{
+        display: table ;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-search {
+        width: 35%;
+        margin-top: 0;
+    }
+    .nav-header {
+        margin-top:0px;
+    }
+    .slider-info {
+        text-align: center;
+    }
+    .product-box-area .mk-banner-vertical-image {
+        margin-bottom: 50px;
+    }
+    .collection-area .single-collection h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .mk-product-item .mk-product-content .mk-product-title {
+        padding: 0 25px;
+        font-size: 12px;
+    }
+    .product-box-area .mk-banner-vertical-image {
+        margin-bottom: 0;
+    }
+    .countdown .countdown-wrapper .offer-text {
+        margin-bottom: 20px;
+    }
+    .countdown .countdown-wrapper .offer-countdown #timer {
+        justify-content: center;
+    }
+    .testimonial-area .testimonial-wrapper .single-testimonial .testi-info .description {
+        padding: 0px 60px;
+    }
+    .testimonial-area .testimonial-wrapper .owl-dots {
+        bottom: -30px;
+    }
+    .faqs-area .tab-content #reviews .review .review-information p {
+        padding-right: 100px;
+    }
+    .cart-product-area #customers td, .cart-product-area #customers th {
+        padding: 25px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .nav-header {
+        margin-top: 0px;
+        width: 35%;
+    }
+    .nav-search {
+        width: 60%;
+    }
+    .nav-search {
+        margin-top: 12px;
+    }
+    .nav-search ul {
+        float: left;
+    }
+    .product-box-area .mk-banner-vertical {
+        padding: 0 0 0 0;
+        padding-bottom: 30px;
+    }
+    .mk-banner-vertical-image .img-fluid {
+        display: none;
+    }
+    .arrival-area .card .card-info .image{
+        text-align: center;
+    }
+    section.countdown .countdown-wrapper .offer-countdown #timer div {
+        min-width: 50px;
+    }
+      section.countdown .countdown-wrapper .offer-countdown #timer div {
+        font-size: 20px;
+        margin: 5px;
+    }
+    section.countdown .countdown-wrapper .offer-countdown #timer div span {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .offer-countdown {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dropdown-menu.dropdown-menu-right.large.show {
+        width: 300px;
+    }
+    .testimonial-area {
+        background-size: cover;
+        padding-top: 0px;
+    }
+    .testimonial-area .testimonial-wrapper .single-testimonial .testi-info .description {
+        padding: 0 10px;
+    }
+    .testimonial-area .testimonial-wrapper .owl-dots {
+        bottom: -50px;
+    }
+    .slider-area .slider-wrapper h1 {
+        font-size: 45px;
+    }
+    .arrival-area .card .content a {
+        padding: 0 40px;
+    }
+    .shop-area .tab {
+        padding: 5px 10px;
+    }
+    .form-control {
+        padding: 0;
+    }
+    .faqs-area .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+    }
+    .faqs-area .tab-content #reviews form {
+        padding: 0;
+    }
+    .faqs-area .tab-content #reviews .review .review-information p {
+        padding-right: 0px;
+    }
+    .faqs-area .tab-content #reviews .review i::before {
+        margin-right: 5px;
+    }
+    .faqs-area .tab-content #specification #specification-info .table-heading {
+        padding: 20px 15px;
+    }
+    .faqs-area .tab-content #specification #specification-info .table-data {
+        padding: 20px 15px;
+    }
+    .product-details .container .product-information .product-cart-btn a.mk-btn-sm.btn {
+        margin-bottom: 20px;
+    }
+    .product-details .container .product-information .alignment-area #customers .size-info .product-size-area .product-size-option {
+        margin-bottom: 10px;
+    }
+    .product-details .container .product-information .alignment-area #customers .color-info .product-color-area .product-color-option {
+        margin-bottom: 10px;
+    }
+    .cart-product-area .coupon-all .coupon .coupon-input-area {
+        display: flex;
+        align-items: center;
+    }
+    .cart-product-area .coupon-all .coupon .cupon-btn {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .cart-product-area .coupon-all .coupon .coupon-input-area {
+        align-items: center;
+        display: inline-grid;
+    }
+    .blog-details-area .blog-details .full-blog .blog-information .entry-meta {
+        display: inline-grid;
+    }
+    .blog-details-area .blog-details .full-blog .blog-information .entry-meta{
+        display: inline-grid;
+    }
+    .blog-details-area .blog-details .full-blog .blog-information .entry-meta a {
+        margin-bottom: 10px;
+    }
+    .cart-product-area .cart-page-total table{
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .cart-product-area #customers td, .cart-product-area #customers th {
+        padding: 20px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .nav-search ul {
+        text-align: center;
+    }
+    .nav-search {
+        width: 45%;
+    }
+    .dropdown-menu.dropdown-menu-right.large.show {
+        width: 335px;
+    }
+    .shop-area .side-bar .sidebar-two .brand-image .brand img {
+        padding: 10px;
+    }
+    .faqs-area .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+    }
+    .faqs-area .tab-content #reviews .review .review-information p {
+        padding-right: 0px;
+    }
+    .blog-details-area .blog-details .entry-meta a {
+        font-size: 14px;
+    }
+    .blog-details-area .blog-details .full-blog .blog-information .entry-meta {
+        display: flex;
+    }
+    .blog-details-area .blog-details .full-blog .blog-information .entry-meta{
+        display: flex;
+    }
+    .blog-details-area .blog-details .full-blog .blog-information .entry-meta a {
+        margin-bottom: 0;
+    }
+    .blog-details-area .blog-details .full-blog .blog-left-side .entry-meta a{
+        font-size: 14px;
+    }
+    .cart-product-area .cart-page-total table {
+        width: 100%;
+        border-collapse: collapse;
+        display: inline-table;
+    }
+}
